@@ -1,0 +1,581 @@
+
+body{
+    box-sizing: border-box;
+    background: rgb(246, 248, 249);
+    margin: 0px;
+    width: 100%;
+    display:inline-flex;
+    flex-direction: column;
+}
+/*header*/
+
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+}
+.initial{
+    background-image: url(initial.jpg);
+    background-size: 100%;
+    width:100%;
+    height: 100vh;
+}
+.color{
+    height:100vh;
+    width:100%;
+    background-color:rgba(87, 255, 115, 0.2);
+    z-index: 2;
+}
+
+.navbar ul {
+    position:fixed;
+    height:45px;
+    background:rgb(255, 238, 0);
+    width: 100%;
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+    display:flex; 
+    z-index: 2;     
+}
+
+
+.color h1{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:45px 0 0 0;
+    text-transform: uppercase;
+    font-size: 10vw;
+    font-family: 'Roboto Slab', serif;
+    margin:0;
+    height:80vh;
+    color:rgb(31, 20, 36);
+}
+h1{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:45px 0 0 0;
+    text-transform: uppercase;
+    font-size: 2vw;
+    font-family: 'Roboto Slab', serif;
+    margin:0;
+    height:15vh;
+    color:rgb(31, 20, 36);
+}
+.h1{
+    background-image: url(initial.jpg)
+}
+a {
+    color: rgb(0,0,0);
+    text-decoration: none;
+}
+
+.navit{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex:1;
+    height:100%;
+    transition: transform 0.2s ease-out;
+}
+.navit:hover{
+    transform: scale(1.4);
+    
+}
+.navhome{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex:3;
+    max-width:50px;
+    height:100%;
+    transition: transform 0.2s ease-out;
+}
+.navhome:hover{
+    transform: scale(1.5);
+}
+.navsocial{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex:1;
+    max-width:25px;
+    height:100%;
+    transition: transform 0.2s ease-out;
+}
+.navsocial:hover{
+    transform: scale(1.5);
+}
+/*main*/
+main{
+    background-color:rgb(246, 248, 249);
+    width:100%;
+}
+main p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 2vw;
+    width:40vw;
+    color:rgb(31, 20, 36);
+}
+
+#portcont12{
+    
+    display:flex;
+    justify-content: space-around;
+    margin:20px 0 20px 0;
+}
+.photo1{
+    width: 45vw;
+    height: auto;
+    position: relative;
+}
+.photo1 img{
+    width:45vw;
+    height:auto;
+}
+.overlay1{
+    position: absolute;
+    left:0px;
+    top:0px;
+    width:100%;
+    height:100%;
+    background-color:rgb(0,0,0);
+    opacity: 0;
+    display:flex;
+
+}
+.overlay1 p{
+    position: absolute;
+    bottom:20%;
+    left:33%;
+    color:rgb(246, 248, 249);
+    
+}   
+.overlay1:hover{
+    opacity:0.8;
+}
+.photo2{
+    width:45vw;
+    height:auto;
+    position: relative;
+}
+.photo2 img{
+    width:45vw;
+    height:auto;
+}
+.overlay2{
+    position: absolute;
+    left:0px;
+    top:0px;
+    width:100%;
+    height:100%;
+    background-color:rgb(0,0,0);
+    opacity: 0;
+    display:flex;
+
+}
+.overlay2 p{
+    position: absolute;
+    bottom:20%;
+    left:36%;
+    color:rgb(246, 248, 249);
+}   
+.overlay2:hover{
+    opacity:0.8;
+}
+#portcont34{
+    
+    display:flex;
+    justify-content: space-around;
+    margin:20px 0 20px 0;
+}
+.photo3{
+    width:45vw;
+    height:auto;
+    position: relative;
+}
+.photo3 img{
+    width:45vw;
+    height:auto;
+}
+.overlay3{
+    position: absolute;
+    left:0px;
+    top:0px;
+    width:100%;
+    height:100%;
+    background-color:rgb(0,0,0);
+    opacity: 0;
+    display:flex;
+
+}
+.overlay3 p{
+    position: absolute;
+    bottom:20%;
+    left:35%;
+    color:rgb(246, 248, 249);
+}   
+.overlay3:hover{
+    opacity:0.8;
+}
+.photo4{
+    width:45vw;
+    height:auto;
+    position: relative;
+}
+.photo4 img{
+    width:45vw;
+    height:auto;
+}
+.overlay4{
+    position: absolute;
+    left:0px;
+    top:0px;
+    width:100%;
+    height:100%;
+    background-color:rgb(0,0,0);
+    opacity: 0;
+    display:flex;
+
+}
+.overlay4 p{
+    position: absolute;
+    bottom:20%;
+    left:34%;
+    color:rgb(246, 248, 249);
+}   
+.overlay4:hover{
+    opacity:0.8;
+}
+#portcont56{
+    
+    display:flex;
+    justify-content: space-around;
+    margin:20px 0 20px 0;
+}
+.photo5{
+    width:45vw;
+    height:auto;
+    position: relative;
+}
+.photo5 img{
+    width:45vw;
+    height:auto;
+}
+.overlay5{
+    position: absolute;
+    left:0px;
+    top:0px;
+    width:100%;
+    height:100%;
+    background-color:rgb(0,0,0);
+    opacity: 0;
+    display:flex;
+
+}
+.overlay5 p{
+    position: absolute;
+    bottom:20%;
+    left:34%;
+    color:rgb(246, 248, 249);
+}   
+.overlay5:hover{
+    opacity:0.8;
+}
+.photo6{
+    width:45vw;
+    height:auto;
+    position: relative;
+}
+.photo6 img{
+    width:45vw;
+    height:auto;
+}
+.overlay6{
+    position: absolute;
+    left:0px;
+    top:0px;
+    width:100%;
+    height:100%;
+    background-color:rgb(0,0,0);
+    opacity: 0;
+    display:flex;
+
+}
+.overlay6 p{
+    position: absolute;
+    bottom:20%;
+    left:36%;
+    color:rgb(246, 248, 249);
+}   
+.overlay6:hover{
+    opacity:0.8;
+}
+
+
+#of1{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:20px 0 20px 0;
+    
+}
+#of1 img{
+    width:25vw;
+    height:auto;
+}
+#of1 p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5vw;
+    width:35vw;
+    color:rgb(31, 20, 36);
+}
+
+#of2{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:20px 0 20px 0;
+    
+}
+#of2 img{
+    width:25vw;
+    height:auto;
+    order:-1;
+}
+#of2 p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5vw;
+    width:35vw;
+    color:rgb(31, 20, 36);
+}
+
+.kontcont{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    margin:10px 20px 15px 20px;
+    
+}
+.kontcont img{
+    width:25vw;
+    height:auto;
+}
+#k{
+    font-family: 'Roboto Slab', serif;
+    color:rgb(31, 20, 36);
+}
+#kontakt{
+    font-family: 'Roboto Slab', serif;
+    font-size: 2vw;
+    width:80vw;
+    color:rgb(31, 20, 36);
+    display:flex;
+}
+.kontakt{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.phone{
+    display:flex;
+    margin:20px;
+
+}
+.phone img{
+    width:2vw;
+    height:2vw;
+    padding:3px 5px 0 0;
+}
+.phone p{
+    margin:0;
+}
+.mail{
+    display:flex;
+    margin:20px;
+
+}
+.mail img{
+    width:2vw;
+    height:2vw;
+    padding:3px 5px 0 0;
+}
+.mail p{
+    margin:0;
+}
+.pin{
+    display:flex;
+    margin:20px;
+
+}
+.pin img{
+    width:2vw;
+    height:2vw;
+    padding:3px 5px 0 0;
+}
+.pin p{
+    margin:0;
+}
+
+#onas h3 {
+    font-family: 'Roboto Slab', serif;
+    color:rgb(31, 20, 36);
+}
+#onas{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:20px 0 0 0;
+}
+#onas img{
+    width:25vw;
+    height:auto;
+}
+#onas p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5vw;
+    width:40vw;
+    color:rgb(31, 20, 36);
+} 
+#onas div{
+    width:25vw;
+}
+
+#are h3 {
+    font-family: 'Roboto Slab', serif;
+    color:rgb(31, 20, 36);
+}
+#are{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:20px 0 0 0;
+    
+}
+#are img{
+    width:25vw;
+    height:auto;
+    order:-1;
+}
+#are ul {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5vw;
+    width:40vw;
+    color:rgb(31, 20, 36);
+    padding:0;
+}
+#are div{
+    width:35vw;
+}
+
+#do h3 {
+    font-family: 'Roboto Slab', serif;
+    color:rgb(31, 20, 36);
+}
+#do{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:20px 0 20px 0;
+    
+}
+#do img{
+    width:25vw;
+    height:auto;
+}
+#do p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5vw;
+    width:35vw;
+    color:rgb(31, 20, 36);
+}
+#do ul {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5vw;
+    width:40vw;
+    color:rgb(31, 20, 36);
+    padding:0;
+}
+.li{
+    margin:0 0 0 20px;
+    list-style-type: disc;
+}
+#do div{
+    width:25vw;
+}
+.main1{
+    display:flex;
+    padding: 30px;
+    justify-content:space-around;
+    align-items: center;
+}
+.main1 img {
+    width: 25vw;
+    height:auto;
+}
+.main2{
+    display:flex;
+    padding: 30px;
+    justify-content:space-around;
+    align-items: center;
+}
+.main2 img {
+    width: 25vw;
+    height:auto;
+    order:-1;
+}
+.main3{
+    display:flex;
+    padding: 30px;
+    justify-content:space-around;
+    align-items: center;
+}
+.main3 img {
+    width: 25vw;
+    height:auto;
+}
+.main4{
+    display:flex;
+    padding: 30px;
+    justify-content:space-around;
+    align-items: center;
+}
+.main4 img {
+    width: 25vw;
+    height:auto;
+    order:-1;
+}
+/*footer*/
+footer{
+    width:100%;
+    background:rgb(255, 238, 0);
+}
+.footsocial ul{
+    font-family: 'Roboto Slab', serif;
+    display:flex;
+    width:95%;
+    justify-content: center;
+    
+}
+.icon{
+    font-size:40px;
+    padding:0 20px 0 20px;
+}
+.footnav{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footcopy{
+    justify-content: center;
+    display: flex;
+    padding:20px;
+}
+footer .footcopy a{
+    color:rgb(105, 37, 131);
+    text-decoration: none;
+}
